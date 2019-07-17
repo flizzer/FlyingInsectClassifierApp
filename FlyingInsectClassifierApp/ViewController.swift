@@ -29,7 +29,7 @@ class ViewController: UIViewController
         imagePicker.allowsEditing = false
     }
     
-    internal func imagePickerController(_ picker: UIImagePickerController
+    func imagePickerController(_ picker: UIImagePickerController
         , didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if let imagePicked =
             info[UIImagePickerController.InfoKey.originalImage]
@@ -67,19 +67,19 @@ class ViewController: UIViewController
                 switch (classification.identifier) {
                 case "Bee":
                     self.navigationItem.title =
-                    "Bee with a confidence level of \(classification.confidence)!"
+                    "Bee - \(classification.confidence * 100)% confidence!"
                 case "Dirt Dauber":
                     self.navigationItem.title =
-                    "Dirt Dauber with a confidence level of \(classification.confidence)!"
+                    "Dirt Dauber - \(classification.confidence * 100)% confidence!"
                 case "Hornet":
                     self.navigationItem.title =
-                    "Hornet with a confidence level of \(classification.confidence)!"
+                    "Hornet - \(classification.confidence * 100)% confidence!"
                 case "Yellow Jacket":
                     self.navigationItem.title =
-                    "Yellow Jacket with a confidence level of \(classification.confidence)!"
+                    "Yellow Jacket - \(classification.confidence * 100)% confidence!"
                 case "Wasp":
                     self.navigationItem.title =
-                    "Wasp with a confidence level of \(classification.confidence)!"
+                    "Wasp - \(classification.confidence * 100)% confidence!"
                 default:
                     self.navigationItem.title =
                     "Unknown"

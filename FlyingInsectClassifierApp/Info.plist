@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app needs access to your photo library for it to work.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This app needs access to your camera for it to work.</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>bee5.jpg</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
