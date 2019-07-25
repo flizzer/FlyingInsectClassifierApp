@@ -50,7 +50,7 @@ class ViewController: UIViewController
     func detect(ciImage: CIImage)
     {
         guard let model = try? VNCoreMLModel(
-            for: FlyingInsectImageClassifierWithAugs().model) else {
+            for: FlyingInsectImageClassifierWithAugs_UpdatedPics().model) else {
                 fatalError("Loading of Model failed!")
         }
         

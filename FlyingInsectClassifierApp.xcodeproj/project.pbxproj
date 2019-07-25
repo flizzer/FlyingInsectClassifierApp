@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FAC7CAE22E96F96001667EF /* FlyingInsectImageClassifierWithAugs_UpdatedPics.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4FAC7CAD22E96F96001667EF /* FlyingInsectImageClassifierWithAugs_UpdatedPics.mlmodel */; };
 		4FEA64A422DE76C200F95F23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA64A322DE76C200F95F23 /* AppDelegate.swift */; };
 		4FEA64A622DE76C200F95F23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA64A522DE76C200F95F23 /* SceneDelegate.swift */; };
 		4FEA64A822DE76C200F95F23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA64A722DE76C200F95F23 /* ViewController.swift */; };
 		4FEA64AB22DE76C200F95F23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEA64A922DE76C200F95F23 /* Main.storyboard */; };
 		4FEA64AD22DE76C500F95F23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FEA64AC22DE76C500F95F23 /* Assets.xcassets */; };
 		4FEA64B022DE76C500F95F23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEA64AE22DE76C500F95F23 /* LaunchScreen.storyboard */; };
-		4FEA64B822DE81FC00F95F23 /* FlyingInsectImageClassifierWithAugs.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA64B722DE81FC00F95F23 /* FlyingInsectImageClassifierWithAugs.mlmodel */; };
 		4FEA64BA22DEDA1F00F95F23 /* bee5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4FEA64B922DEDA1F00F95F23 /* bee5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4FAC7CAD22E96F96001667EF /* FlyingInsectImageClassifierWithAugs_UpdatedPics.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = FlyingInsectImageClassifierWithAugs_UpdatedPics.mlmodel; path = FlyingInsectImageClassifierModel/FlyingInsectImageClassifier.mlproj/Models/FlyingInsectImageClassifierWithAugs_UpdatedPics.mlmodel; sourceTree = "<group>"; };
 		4FEA64A022DE76C200F95F23 /* FlyingInsectClassifierApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyingInsectClassifierApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FEA64A322DE76C200F95F23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FEA64A522DE76C200F95F23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,7 +27,6 @@
 		4FEA64AC22DE76C500F95F23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FEA64AF22DE76C500F95F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FEA64B122DE76C500F95F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FEA64B722DE81FC00F95F23 /* FlyingInsectImageClassifierWithAugs.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FlyingInsectImageClassifierWithAugs.mlmodel; sourceTree = "<group>"; };
 		4FEA64B922DEDA1F00F95F23 /* bee5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bee5.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,7 +44,7 @@
 		4FEA649722DE76C200F95F23 = {
 			isa = PBXGroup;
 			children = (
-				4FEA64B722DE81FC00F95F23 /* FlyingInsectImageClassifierWithAugs.mlmodel */,
+				4FAC7CAD22E96F96001667EF /* FlyingInsectImageClassifierWithAugs_UpdatedPics.mlmodel */,
 				4FEA64A222DE76C200F95F23 /* FlyingInsectClassifierApp */,
 				4FEA64A122DE76C200F95F23 /* Products */,
 			);
@@ -145,9 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FAC7CAE22E96F96001667EF /* FlyingInsectImageClassifierWithAugs_UpdatedPics.mlmodel in Sources */,
 				4FEA64A822DE76C200F95F23 /* ViewController.swift in Sources */,
 				4FEA64A422DE76C200F95F23 /* AppDelegate.swift in Sources */,
-				4FEA64B822DE81FC00F95F23 /* FlyingInsectImageClassifierWithAugs.mlmodel in Sources */,
 				4FEA64A622DE76C200F95F23 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
